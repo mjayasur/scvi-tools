@@ -7,6 +7,7 @@ from ._trainingplans import (
     TrainingPlan,
 )
 from ._trainrunner import TrainRunner
+from ._autotune import Autotune
 
 __all__ = [
     "TrainingPlan",
@@ -16,4 +17,5 @@ __all__ = [
     "AdversarialTrainingPlan",
     "ClassifierTrainingPlan",
     "TrainRunner",
+    "Autotune"
 ]
